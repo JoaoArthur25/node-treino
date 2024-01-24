@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-api-treino.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,10 +9,10 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-api-treino.onrender.com/videos
 
 ###
-PUT http://localhost:3333/videos/36a3f3fb-577a-4aa5-bc84-991a0c8922f0
+PUT https://node-api-treino.onrender.com/videos/0379c5a6-80bf-4bc4-be99-fd6df4391a08
 Content-Type: application/json
 
 {
@@ -22,4 +22,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3333/videos/36a3f3fb-577a-4aa5-bc84-991a0c8922f0
+DELETE https://node-api-treino.onrender.com/videos/7d2f7245-b138-4c0f-bc98-32df74984cb6
